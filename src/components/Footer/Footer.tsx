@@ -9,7 +9,7 @@ export function Footer() {
 
     return (
         <nav className="footer-container">
-            <a target="_blank" rel="noreferrer" href="https://github.com/AndyDanger/live-lol-esports">
+            <a target="_blank" rel="noreferrer" href="https://github.com/AndyDanger/andydanger.github.io">
                 <GitHubLogoSVG className="footer-img" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://twitter.com/andydangerzone">
