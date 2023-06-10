@@ -153,15 +153,15 @@ body {
 }
 
 .background:nth-child(2):not(.active, .down-scroll) {
-    transform: translate3d(0, 85vh, 0) !important;
+    transform: translate3d(0, 80vh, 0) !important;
 }
 
 .background:nth-child(3):not(.active, .down-scroll) {
-    transform: translate3d(0, 90vh, 0) !important;
+    transform: translate3d(0, 85vh, 0) !important;
 }
 
 .background:nth-child(4):not(.active) {
-    transform: translate3d(0, 95vh, 0) !important;
+    transform: translate3d(0, 90vh, 0) !important;
 }
 
 .background:nth-child(3) svg {
