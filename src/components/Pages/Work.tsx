@@ -1,11 +1,10 @@
-import './styles/aboutStyle.css'
-import { ReactComponent as StepsSVG } from '../Pages/assets/layered-steps-haikei-trans.svg';
-
+import './styles/workStyle.css'
+import { ReactComponent as PeaksSVG } from '../Pages/assets/layered-peaks-haikei-trans.svg';
 
 import { useEffect, useState } from "react";
 
 
-export function About() {
+export function Work() {
 
     useEffect(() => {
 
@@ -15,16 +14,16 @@ export function About() {
 
     return (
         <div>
-            <div className="container steps">
+            <div className="container peaks">
                 <section className="background">
                     <div className="content-wrapper">
-                        <p className="content-title">About Page</p>
+                        <p className="content-title">Work Page</p>
                         <p className="content-subtitle">Scroll down!</p>
                     </div>
                 </section>
                 <section className="background">
                     <div className='wrapper'>
-                        <StepsSVG />
+                        <PeaksSVG />
                         <div></div>
                     </div>
                     <div className="content-wrapper">
@@ -34,7 +33,7 @@ export function About() {
                 </section>
                 <section className="background">
                     <div className='wrapper'>
-                        <StepsSVG />
+                        <PeaksSVG />
                         <div></div>
                     </div>
                     <div className="content-wrapper">
@@ -44,7 +43,7 @@ export function About() {
                 </section>
                 <section className="background">
                     <div className='wrapper'>
-                        <StepsSVG />
+                        <PeaksSVG />
                         <div></div>
                     </div>
                     <div className="content-wrapper">

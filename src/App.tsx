@@ -5,6 +5,7 @@ import {HashRouter, Routes, Route, Navigate} from "react-router-dom";
 import {Footer} from "./components/Footer/Footer";
 import {Homepage} from "./components/Pages/Homepage";
 import {About} from "./components/Pages/About";
+import {Work} from "./components/Pages/Work";
 import {Navbar} from "./components/Navbar/Navbar";
 import { useTheme } from './theme/ThemeContext'
 import React from "react";
@@ -19,7 +20,8 @@ function App() {
                 <div className="container">
                     <Routes>
                         <Route path="/" element={<Homepage />}/>
-                        <Route path="/about" element={<About />}/>
+                        <Route path="/work/" element={<Work />}/>
+                        <Route path="/about/" element={<About />}/>
                         {/* <Navigate to="/"/> */}
                     </Routes>
                 </div>

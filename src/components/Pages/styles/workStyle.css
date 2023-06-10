@@ -1,0 +1,53 @@
+.peaks .background:first-child {
+    background-color: #e6c49f;
+}
+.peaks .background:nth-child(2),
+.peaks .background:nth-child(2) .wrapper div {
+    background-color: #b07d50;
+}
+
+.peaks .background:nth-child(3),
+.peaks .background:nth-child(3) .wrapper div {
+    background-color: #9d6532;
+}
+
+.peaks .background:nth-child(4),
+.peaks .background:nth-child(4) .wrapper div {
+    background-color: #435933;
+}
+
+.peaks .background:nth-child(2) path {
+    fill: #b07d50;
+}
+
+.peaks .background:nth-child(3) path {
+    fill: #9d6532;
+}
+
+.peaks .background:nth-child(4) path {
+    fill: #435933;
+}
+
+@keyframes Mountains {
+
+    0%,
+    100% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: -100px;
+    }
+}
+
+.peaks .background:nth-child(2):not(.active) .wrapper {
+    animation: Mountains 6s ease-in-out infinite !important;
+}
+
+.peaks .background:nth-child(3):not(.active) .wrapper {
+    animation: Mountains 5s ease-in-out infinite !important;
+}
+
+.peaks .background:nth-child(4):not(.active) .wrapper {
+    animation: Mountains 7s ease-in-out infinite !important;
+}

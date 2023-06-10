@@ -9,9 +9,15 @@
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.4);
 }
 
+h2 {
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
 .navbar-logo-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navbar-logo {
@@ -23,6 +29,15 @@
 
 .navbar-container::before, .navbar-logo-container, .toggle-container {
     content: '';
+    background-color: var(--card-color);
+    z-index: 10;
+}
+
+.navbar-container::before {
+    flex-basis: 10%;
+}
+
+.navbar-logo-container{
     flex-basis: 100%;
 }
 
@@ -30,8 +45,9 @@
     width: 2.5rem;
 }
 
-.navbar-icon-img > path {
-    fill: var(--logo-color);
+.navbar-container svg {
+    width: 40px;
+    height: 40px;
 }
 
 .navbar-icon {
@@ -47,7 +63,9 @@ theme and sound toggle
 .settings-container {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 10%;
+    background-color: var(--card-color);
+    z-index: 10;
 }
 
 .theme-toggle {

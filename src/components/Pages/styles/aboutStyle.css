@@ -1,3 +1,55 @@
-h1 {
-    text-align: center;
+.steps .background:first-child {
+    background-color: #e93bae;
+}
+
+.steps .background:nth-child(2),
+.steps .background:nth-child(2) .wrapper div {
+    background-color: #1e1fab;
+}
+
+.steps .background:nth-child(3),
+.steps .background:nth-child(3) .wrapper div {
+    background-color: #1d1546;
+}
+
+.steps .background:nth-child(4),
+.steps .background:nth-child(4) .wrapper div {
+    background-color: #051a2d;
+}
+
+.steps .background:nth-child(2) path {
+    fill: #1e1fab;
+}
+
+.steps .background:nth-child(3) path {
+    fill: #1d1546;
+}
+
+.steps .background:nth-child(4) path {
+    fill: #051a2d;
+}
+
+@keyframes Glow {
+
+    0%,
+    100% {
+        filter: brightness(1.25)
+    }
+
+    50% {
+        filter: brightness(0.25)
+    }
+}
+
+
+.steps .background:nth-child(2):not(.active) .wrapper{
+    animation: Glow 6s ease-in-out infinite;
+}
+
+.steps .background:nth-child(3):not(.active) .wrapper{
+    animation: Glow 5s ease-in-out infinite;
+}
+
+.steps .background:nth-child(4):not(.active) .wrapper{
+    animation: Glow 7s ease-in-out infinite;
 }

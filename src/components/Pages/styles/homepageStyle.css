@@ -1,4 +1,55 @@
-h1 {
-    text-decoration: underline;
-    text-align: center;
+.waves .background:first-child {
+    background-color: #caf0f8;
+}
+
+.waves .background:nth-child(2),
+.waves .background:nth-child(2) .wrapper div {
+    background-color: #90e0ef;
+}
+
+.waves .background:nth-child(3),
+.waves .background:nth-child(3) .wrapper div {
+    background-color: #00b4d8;
+}
+
+.waves .background:nth-child(4),
+.waves .background:nth-child(4) .wrapper div {
+    background-color: #0077b6;
+}
+
+.waves .background:nth-child(2) path {
+    fill: #90e0ef;
+}
+
+.waves .background:nth-child(3) path {
+    fill: #00b4d8;
+}
+
+.waves .background:nth-child(4) path {
+    fill: #0077b6;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 40px;
+    }
+    
+}
+
+.waves .background:nth-child(2):not(.active) .wrapper {
+    animation: MoveUpDown 6s ease-in-out infinite;
+}
+
+.waves .background:nth-child(3):not(.active) .wrapper {
+    animation: MoveUpDown 5s ease-in-out infinite;
+}
+
+.waves .background:nth-child(4):not(.active) .wrapper {
+    animation: MoveUpDown 7s ease-in-out infinite;
 }

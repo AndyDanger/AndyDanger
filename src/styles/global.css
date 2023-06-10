@@ -56,12 +56,212 @@ a {
 }
 
 .container {
-    min-height: 85vh;
-    max-width: 1080px;
+    /* min-height: 85vh; */
     margin: 0 auto;
-    padding: 2.5rem 2rem;
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: auto;
+    /* overflow: auto; */
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Indie+Flower); */
+
+html,
+body {
+    overflow: hidden;
+}
+
+.container .slick-slide {
+    height: 100vh;
+}
+
+.slick-slide:first-child {
+    z-index: 4;
+}
+
+.slick-slide:nth-child(2) {
+    z-index: 5;
+}
+
+.slick-slide:nth-child(3) {
+    z-index: 6;
+}
+
+
+.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow-x: clip;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 130vh;
+    position: absolute;
+    width: 100%;
+    -webkit-transform: translateY(30vh);
+    -ms-transform: translateY(30vh);
+    transform: translateY(30vh);
+    -webkit-transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+}
+
+.content-title,
+.content-subtitle {
+    color: black;
+}
+
+.background:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.background:first-child {
+    -webkit-transform: translateY(-15vh);
+    -ms-transform: translateY(-15vh);
+    transform: translateY(-15vh);
+}
+
+.background:first-child .content-wrapper {
+    -webkit-transform: translateY(20vh) !important;
+    -ms-transform: translateY(20vh) !important;
+    transform: translateY(20vh) !important;
+}
+
+/* Set stacking context of slides */
+.background:nth-child(1) {
+    z-index: 1;
+}
+
+.background:nth-child(2) {
+    z-index: 2;
+}
+
+.background:nth-child(3) {
+    z-index: 3;
+}
+
+.background:nth-child(4) {
+    z-index: 4;
+}
+
+.background:nth-child(2):not(.active, .down-scroll) {
+    transform: translate3d(0, 85vh, 0) !important;
+}
+
+.background:nth-child(3):not(.active, .down-scroll) {
+    transform: translate3d(0, 90vh, 0) !important;
+}
+
+.background:nth-child(4):not(.active) {
+    transform: translate3d(0, 95vh, 0) !important;
+}
+
+.background:nth-child(3) svg {
+    transform: scaleX(1.5);
+}
+
+.background:nth-child(4) svg {
+    transform: rotateY(180deg);
+}
+
+
+.background .wrapper {
+    position: relative;
+    top: 0%;
+    transform: translateY(-100%);
+}
+
+.wrapper div {
+    width: 100%;
+    height: 40px;
+    margin-top: -5px;
+}
+
+.content-wrapper {
+    height: 100vh;
+    padding: 0px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: flex-startflex-start;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    text-align: center;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    color: #fff;
+    /* font-family: Montserrat; */
+    -webkit-transform: translateY(40vh);
+    -ms-transform: translateY(40vh);
+    transform: translateY(40vh);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+}
+
+.container img {
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.content-title {
+    font-size: 12vh;
+    line-height: 1.4;
+}
+
+.background.up-scroll {
+    -webkit-transform: translate3d(0, -15vh, 0);
+    transform: translate3d(0, -15vh, 0);
+}
+
+.background.up-scroll .content-wrapper {
+    -webkit-transform: translateY(15vh);
+    -ms-transform: translateY(15vh);
+    transform: translateY(15vh);
+}
+
+.background.up-scroll+.background {
+    -webkit-transform: translate3d(0, 30vh, 0);
+    transform: translate3d(0, 30vh, 0);
+}
+
+.background.up-scroll+.background .content-wrapper {
+    -webkit-transform: translateY(30vh);
+    -ms-transform: translateY(30vh);
+    transform: translateY(30vh);
+}
+
+.background.down-scroll {
+    -webkit-transform: translate3d(0, -130vh, 0);
+    transform: translate3d(0, -130vh, 0);
+}
+
+.background.down-scroll .content-wrapper {
+    -webkit-transform: translateY(40vh);
+    -ms-transform: translateY(40vh);
+    transform: translateY(40vh);
+}
+
+.background.down-scroll+.background:not(.down-scroll) {
+    -webkit-transform: translate3d(0, -15vh, 0);
+    transform: translate3d(0, -15vh, 0);
+}
+
+.background.down-scroll+.background:not(.down-scroll) .content-wrapper {
+    -webkit-transform: translateY(15vh);
+    -ms-transform: translateY(15vh);
+    transform: translateY(15vh);
 }
