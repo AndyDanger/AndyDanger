@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e984c00b.css",
+    "main.css": "/static/css/main.0eca7c20.css",
     "main.js": "/static/js/main.ff9e34c2.js",
     "static/media/hawaii.jpg": "/static/media/hawaii.02af2f0eac6d235c129c.jpg",
     "static/media/adele.jpg": "/static/media/adele.d2e5c764084711f1c11c.jpg",
@@ -14,11 +14,11 @@
     "static/media/wave-haikei-trans.svg": "/static/media/wave-haikei-trans.f6aef4dba308e0208a317cf12cb8e0a1.svg",
     "static/media/twitter.svg": "/static/media/twitter.5ae9f4cf80c1f851b13c3fb4494b8d39.svg",
     "static/media/layered-peaks-haikei-trans.svg": "/static/media/layered-peaks-haikei-trans.b447f7b16e1c5079c33eddd0d565979e.svg",
-    "main.e984c00b.css.map": "/static/css/main.e984c00b.css.map",
+    "main.0eca7c20.css.map": "/static/css/main.0eca7c20.css.map",
     "main.ff9e34c2.js.map": "/static/js/main.ff9e34c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e984c00b.css",
+    "static/css/main.0eca7c20.css",
     "static/js/main.ff9e34c2.js"
   ]
 }
