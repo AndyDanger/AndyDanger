@@ -42,14 +42,14 @@
 }
 
 
-.steps .background:nth-child(2):not(.active) .wrapper{
+.steps .background:nth-child(2):not(.active) {
     animation: Glow 6s ease-in-out infinite;
 }
 
-.steps .background:nth-child(3):not(.active) .wrapper{
+.steps .background:nth-child(3):not(.active) {
     animation: Glow 5s ease-in-out infinite;
 }
 
-.steps .background:nth-child(4):not(.active) .wrapper{
+.steps .background:nth-child(4):not(.active) {
     animation: Glow 7s ease-in-out infinite;
 }
