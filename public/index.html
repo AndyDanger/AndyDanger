@@ -39,9 +39,10 @@
   <div id="root"></div>
   <script>
     let slickInterval = setInterval(() => {
-      let slider = document.querySelector(`.theme-container > .container > div`)
+      let slider = document.querySelector(`.homepageWrapper`)
       let sliderNav = document.querySelector(`.slider-nav`)
-      if (!slider || !sliderNav || typeof jQuery == `undefined` || !$().slick) return
+      let abTests = document.querySelector(`.abTests`)
+      if (!slider || !sliderNav || !abTests || typeof jQuery == `undefined` || !$().slick) return
       clearInterval(slickInterval)
       $(slider).slick({
         infinite: false,
@@ -61,16 +62,25 @@
         touchMove: false,
         useTransform: false,
         slidesToScroll: 3,
-        asNavFor: `.theme-container > .container > div`
+        asNavFor: `.homepageWrapper`
       });
 
       $(slider).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        if (event.target.className.includes(`abTests`)) return
         console.log(`nextPage: ${nextSlide}`);
         currentSlideNumber = 0
         $(".up-scroll, .down-scroll, .active").removeClass(`active`).removeClass(`up-scroll`).removeClass(`down-scroll`)
         $(`.footer-container`).animate({
           bottom: `-100px`
         }, 400)
+      });
+
+      $(abTests).slick({
+        arrows: true,
+        autoplay: true,
+        dots: true,
+        draggable: false,
+        infinite: true,
       });
     }, 250)
 

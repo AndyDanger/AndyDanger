@@ -16,7 +16,7 @@ export function Homepage() {
     document.title = "Andy Danger Portfolio";
 
     return (
-        <div>
+        <div className="homepageWrapper">
             <div className="container waves">
                 <section className="background">
                     <div className="content-wrapper">
@@ -32,9 +32,25 @@ export function Homepage() {
                     <div className="content-wrapper">
                         <p className="content-title">UX</p>
                         <p className="content-subtitle">I've designed, developed and designed hundreds of A/B test for a whole slew of clients and industries.</p>
-                        <p>
-                        <iframe width="100%" height="400px" src="https://docs.google.com/presentation/d/e/2PACX-1vQrzu8ryhSHnwhhJ8lGPTe7h8mBQRdiGyS8vNiH7x_FSNi7VxZoqq_ivGT-sIdkYpjXQwAAWEKWPf-g/embed?start=true&loop=true&delayms=3000" frameBorder="0" allowFullScreen={true}></iframe>
-                        </p>
+                        <div>
+                            <div className="abTests">
+                                <div>
+                                    <img src={require('../Pages/assets/alphapaw_slide.jpg')} />
+                                </div>
+                                <div>
+                                    <img src={require('../Pages/assets/bartesian_slide.jpg')} />
+                                </div>
+                                <div>
+                                    <img src={require('../Pages/assets/mtnops_slide.jpg')} />
+                                </div>
+                                <div>
+                                    <img src={require('../Pages/assets/sandcloud_slide.jpg')} />
+                                </div>
+                                <div>
+                                    <img src={require('../Pages/assets/slumberkins_slide.jpg')} />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section className="background">
@@ -46,7 +62,7 @@ export function Homepage() {
                         <p className="content-title">Analytics</p>
                         <p className="content-subtitle">My insights are catered to fit your needs and based on real-market data.</p>
                         <p>
-                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/uOoyhCdPSwM" title="Guess The Test: Including Savings Callout in Mini-Cart" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/uOoyhCdPSwM" title="Guess The Test: Including Savings Callout in Mini-Cart" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </p>
                     </div>
                 </section>
