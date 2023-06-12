@@ -109,8 +109,8 @@ body {
     -webkit-transform: translateY(30vh);
     -ms-transform: translateY(30vh);
     transform: translateY(30vh);
-    -webkit-transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
-    transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+    /* -webkit-transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+    transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1); */
 }
 
 .content-title,

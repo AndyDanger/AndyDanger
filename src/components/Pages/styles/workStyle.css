@@ -1,31 +1,31 @@
 .peaks .background:first-child {
-    background-color: #e6c49f;
+    background-color: var(--peak1);
 }
 .peaks .background:nth-child(2),
 .peaks .background:nth-child(2) .wrapper div {
-    background-color: #b07d50;
+    background-color: var(--peak2);
 }
 
 .peaks .background:nth-child(3),
 .peaks .background:nth-child(3) .wrapper div {
-    background-color: #9d6532;
+    background-color: var(--peak3);
 }
 
 .peaks .background:nth-child(4),
 .peaks .background:nth-child(4) .wrapper div {
-    background-color: #435933;
+    background-color: var(--peak4);
 }
 
 .peaks .background:nth-child(2) path {
-    fill: #b07d50;
+    fill: var(--peak2);
 }
 
 .peaks .background:nth-child(3) path {
-    fill: #9d6532;
+    fill: var(--peak3);
 }
 
 .peaks .background:nth-child(4) path {
-    fill: #435933;
+    fill: var(--peak4);
 }
 
 @keyframes Mountains {

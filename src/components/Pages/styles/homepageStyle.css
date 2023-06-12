@@ -1,32 +1,32 @@
 .waves .background:first-child {
-    background-color: #caf0f8;
+    background-color: var(--wave1);
 }
 
 .waves .background:nth-child(2),
 .waves .background:nth-child(2) .wrapper div {
-    background-color: #90e0ef;
+    background-color: var(--wave2);
 }
 
 .waves .background:nth-child(3),
 .waves .background:nth-child(3) .wrapper div {
-    background-color: #00b4d8;
+    background-color: var(--wave3);
 }
 
 .waves .background:nth-child(4),
 .waves .background:nth-child(4) .wrapper div {
-    background-color: #0077b6;
+    background-color: var(--wave4);
 }
 
 .waves .background:nth-child(2) path {
-    fill: #90e0ef;
+    fill: var(--wave2);
 }
 
 .waves .background:nth-child(3) path {
-    fill: #00b4d8;
+    fill: var(--wave3);
 }
 
 .waves .background:nth-child(4) path {
-    fill: #0077b6;
+    fill: var(--wave4);
 }
 
 @keyframes MoveUpDown {

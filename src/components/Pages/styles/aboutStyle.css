@@ -1,43 +1,43 @@
 .steps .background:first-child {
-    background-color: #e93bae;
+    background-color: var(--step1);
 }
 
 .steps .background:nth-child(2),
 .steps .background:nth-child(2) .wrapper div {
-    background-color: #1e1fab;
+    background-color: var(--step2);
 }
 
 .steps .background:nth-child(3),
 .steps .background:nth-child(3) .wrapper div {
-    background-color: #1d1546;
+    background-color: var(--step3);
 }
 
 .steps .background:nth-child(4),
 .steps .background:nth-child(4) .wrapper div {
-    background-color: #051a2d;
+    background-color: var(--step4);
 }
 
 .steps .background:nth-child(2) path {
-    fill: #1e1fab;
+    fill: var(--step2);
 }
 
 .steps .background:nth-child(3) path {
-    fill: #1d1546;
+    fill: var(--step3);
 }
 
 .steps .background:nth-child(4) path {
-    fill: #051a2d;
+    fill: var(--step4);
 }
 
 @keyframes Glow {
 
     0%,
     100% {
-        filter: brightness(1.25)
+        filter: brightness(.75)
     }
 
     50% {
-        filter: brightness(0.25)
+        filter: brightness(0.5)
     }
 }
 
