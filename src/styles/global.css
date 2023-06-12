@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: all 0.2s ease;
-
+    color: var(--text);
 }
 
 /*:root {
@@ -113,11 +113,6 @@ body {
     transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1); */
 }
 
-.content-title,
-.content-subtitle {
-    color: black;
-}
-
 .background:before {
     content: "";
     position: absolute;
@@ -224,7 +219,6 @@ body {
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-    color: #fff;
     /* font-family: Montserrat; */
     -webkit-transform: translateY(40vh);
     -ms-transform: translateY(40vh);
