@@ -32,12 +32,16 @@
 
     0%,
     100% {
-        margin-left: 0;
+        left: 0;
     }
 
     50% {
-        margin-left: -100px;
+        left: -20vw;
     }
+}
+
+.peaks .background .wrapper {
+    margin-right: -20vw;
 }
 
 .peaks .background:nth-child(2):not(.active) .wrapper {
