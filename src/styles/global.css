@@ -77,6 +77,32 @@ body {
     overflow: hidden;
 }
 
+.sunWrapper {
+    width: 100%;
+    height: 300vw;
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.cycle .sunWrapper {
+    animation: Cycle 1.5s ease infinite;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes Cycle {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
 .sun {
     opacity: .85;
     position: absolute;

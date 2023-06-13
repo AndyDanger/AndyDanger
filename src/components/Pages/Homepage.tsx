@@ -20,7 +20,9 @@ export function Homepage() {
 
     return (
         <div>
-            <div className="sun" />
+            <div className="sunWrapper">
+                <div className="sun" />
+            </div>
             <div className="homepageWrapper">
                 <div className="container waves">
                     <section className="background">

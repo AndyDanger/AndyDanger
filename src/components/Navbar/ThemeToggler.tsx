@@ -1,16 +1,16 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import './styles/navbarStyle.css'
 
 import { useTheme } from "../../theme/ThemeContext";
 import TagManager from 'react-gtm-module'
 
 export function ThemeToggler() {
-    const { setCurrentTheme} = useTheme();
+    const { setCurrentTheme } = useTheme();
     const [toggled, setToggled] = useState(true);
 
     useEffect(() => {
         const themeData = localStorage.getItem("theme");
-        if(themeData) {
+        if (themeData) {
             if (themeData === "light") {
                 setCurrentTheme("light");
                 setToggled(false);
@@ -22,15 +22,13 @@ export function ThemeToggler() {
     }, [setCurrentTheme])
 
     const handleClick = () => {
-        if(toggled) {
-            setCurrentTheme("light");
-            localStorage.setItem("theme", "light");
-            TagManager.dataLayer({ dataLayer: { event: 'theme_toggled', action: 'light' } })
-        }else{
-            setCurrentTheme("dark");
-            localStorage.setItem("theme", "dark");
-            TagManager.dataLayer({ dataLayer: { event: 'theme_toggled', action: 'dark' } })
-        }
+        const theme = toggled ? `light` : `dark`
+        setCurrentTheme(theme)
+        document.body.classList.remove(`cycle`)
+        setTimeout(() => {
+            document.body.classList.add(`cycle`)
+        }, 50)
+        TagManager.dataLayer({ dataLayer: { event: 'theme_toggled', action: theme } })
 
         setToggled((s) => !s);
     }

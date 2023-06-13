@@ -69,7 +69,7 @@
         if (event.target.className.includes(`abTests`)) return
         console.log(`nextPage: ${nextSlide}`);
         currentSlideNumber = 0
-        $(`.sun`).attr(`current-page`, nextSlide)
+        $(`.sun`).attr(`current-page`, nextSlide).removeClass(`hide`)
         $(".up-scroll, .down-scroll, .active").removeClass(`active`).removeClass(`up-scroll`).removeClass(`down-scroll`)
         $(`.footer-container`).animate({
           bottom: `-100px`
