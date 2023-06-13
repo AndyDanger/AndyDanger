@@ -1,4 +1,7 @@
 import './styles/homepageStyle.css'
+import './styles/aboutStyle.css'
+import './styles/workStyle.css'
+
 import { ReactComponent as WaveSVG } from '../Pages/assets/wave-haikei-trans.svg';
 import { ReactComponent as PeaksSVG } from '../Pages/assets/layered-peaks-haikei-trans.svg';
 import { ReactComponent as StepsSVG } from '../Pages/assets/layered-steps-haikei-trans.svg';
@@ -19,6 +22,7 @@ export function Homepage() {
         <div className="homepageWrapper">
             <div className="container waves">
                 <section className="background">
+                    <div className="sun" />
                     <div className="content-wrapper">
                         <p className="content-title">Hello!</p>
                         <p className="content-subtitle">I'm Andrew "Andy Danger" Marshall, a UX designer, analytics specialist, and web developer based in St. Louis</p>
@@ -79,6 +83,7 @@ export function Homepage() {
             </div>
             <div className="container peaks">
                 <section className="background">
+                    <div className="sun" />
                     <div className="content-wrapper">
                         <p className="content-title">Work</p>
                         <p className="content-subtitle">Scroll down!</p>
@@ -117,6 +122,7 @@ export function Homepage() {
             </div>
             <div className="container steps">
                 <section className="background">
+                    <div className="sun" />
                     <div className="content-wrapper">
                         <p className="content-title">About</p>
                         <img src={require('../Pages/assets/hawaii.jpg')} />

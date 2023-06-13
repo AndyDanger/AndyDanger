@@ -1,3 +1,8 @@
+.peaks .sun {
+    left: calc(50% - 30px);
+    top: 35%;
+}
+
 .peaks .background:first-child {
     background-color: var(--peak1);
 }

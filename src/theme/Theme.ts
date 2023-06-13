@@ -26,5 +26,6 @@ export interface Theme {
     '--step2': string,
     '--step3': string,
     '--step4': string,
+    '--sun': string,
     'background': string,
 }

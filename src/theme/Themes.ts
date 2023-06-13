@@ -30,6 +30,7 @@ export const THEMES: Record<ThemeType, Theme> = {
         '--step2': "#ff92aa",
         '--step3': "#fd6788",
         '--step4': "#f9486e",
+        '--sun': "yellow",
         'background': "var(--background)",
     },
     dark: {
@@ -60,6 +61,7 @@ export const THEMES: Record<ThemeType, Theme> = {
         '--step2': "#5a0455",
         '--step3': "#4c024c",
         '--step4': "#33003c",
+        '--sun': "#f8f8c4",
         'background': "var(--background)",
     }
 }
