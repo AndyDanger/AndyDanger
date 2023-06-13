@@ -69,6 +69,7 @@
         if (event.target.className.includes(`abTests`)) return
         console.log(`nextPage: ${nextSlide}`);
         currentSlideNumber = 0
+        $(`.sun`).attr(`current-page`, nextSlide)
         $(".up-scroll, .down-scroll, .active").removeClass(`active`).removeClass(`up-scroll`).removeClass(`down-scroll`)
         $(`.footer-container`).animate({
           bottom: `-100px`
@@ -111,11 +112,10 @@
     })
 
     function parallaxScroll(evt, isMobile) {
-      console.log(isMobile)
       let totalSlideNumber = $(".slick-active .background").length;
-      console.log(`currentSlideNumber: ${currentSlideNumber}`)
-      console.log(`totalSlideNumber: ${totalSlideNumber}`)
       console.log(`scrolling`)
+      console.log(`totalSlideNumber: ${totalSlideNumber}`)
+      console.log(`currentSlideNumber: ${currentSlideNumber}`)
 
       if (isMobile) {
         delta = touchendY - touchstartY
@@ -162,6 +162,10 @@
           previousItem();
           slideDurationTimeout(slideDurationSetting);
         }
+
+        console.log(`endSlideNumber: ${currentSlideNumber}`)
+
+        currentSlideNumber < 1 ? $(`.hide`).removeClass(`hide`) : $(`.sun`).addClass(`hide`)
       }
     }
 

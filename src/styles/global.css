@@ -53,7 +53,8 @@ h4 {
     color: var(--text);
 }
 
-button, .navbar-icon {
+button,
+.navbar-icon {
     cursor: pointer;
 }
 
@@ -71,22 +72,63 @@ a {
     /* overflow: auto; */
 }
 
-/* @import url(https://fonts.googleapis.com/css?family=Indie+Flower); */
-
 html,
 body {
     overflow: hidden;
 }
 
 .sun {
+    opacity: .85;
+    position: absolute;
+    width: 100%;
+    height: 70vw;
+    z-index: 10;
+    pointer-events: none;
+    text-align: center;
+    transform: rotate(-90deg);
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+.sun:before {
+    content: '';
     position: absolute;
     background-color: var(--sun);
+    box-shadow: 0px 0px 18px var(--sun);
     width: 60px;
     height: 60px;
     text-align: center;
     line-height: 60px;
     border-radius: 50%;
-    box-shadow: 0px 0px 18px var(--sun);
+    margin-left: -30px;
+    animation: GlowSun 5s ease infinite;
+}
+
+@keyframes GlowSun {
+
+    0%,
+    100% {
+        filter: brightness(1)
+    }
+
+    50% {
+        filter: brightness(1.35)
+    }
+
+}
+
+.sun[current-page="1"] {
+    transform: rotate(0deg);
+    padding-top: 60px;
+}
+
+
+.sun[current-page="2"] {
+    transform: rotate(90deg);
+}
+
+.sun.hide {
+    opacity: 0;
 }
 
 .container.slick-slide {
@@ -193,6 +235,39 @@ body {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+
+    .content-title {
+        font-size: 8vw;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .sun {
+        height: 85vw;
+    }
+
+    .background:first-child .content-wrapper {
+        transform: translateY(40vh) !important;
+    }
+
+    .content-title {
+        font-size: 12vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sun {
+        height: 95vw;
+    }
+
+    .content-title {
+        font-size: 16vw;
+    }
+}
+
+
 
 .background:nth-child(3) svg {
     transform: scaleX(1.5);
@@ -217,20 +292,9 @@ body {
 
 .content-wrapper {
     height: 100vh;
-    padding: 0px 20px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: flex-startflex-start;
-    -ms-flex-pack: center;
-    justify-content: flex-start;
+    padding: 0px 30px;
+    display: block;
     text-align: center;
-    -webkit-flex-flow: column nowrap;
-    -ms-flex-flow: column nowrap;
-    flex-flow: column nowrap;
-    /* font-family: Montserrat; */
     -webkit-transform: translateY(40vh);
     -ms-transform: translateY(40vh);
     transform: translateY(40vh);
@@ -241,14 +305,11 @@ body {
     transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
 }
 
-.content-wrapper > img {
+.content-wrapper>img {
     max-width: 400px;
     margin: 0px auto;
-}
-
-.content-title {
-    font-size: 12vh;
-    line-height: 1.4;
+    object-fit: contain;
+    width: 100%;
 }
 
 .background.up-scroll {
