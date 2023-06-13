@@ -82,6 +82,11 @@
         draggable: false,
         infinite: true,
       });
+
+      $(`.navbar-logo`).click(() => {
+        $(slider).slick(`slickGoTo`, 0)
+      })
+
     }, 250)
 
     let ticking = false;

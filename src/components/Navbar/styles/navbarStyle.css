@@ -1,17 +1,11 @@
 .navbar-container {
     display: flex;
     justify-content: center;
-
     width: 100%;
     height: 5rem;
-
     background-color: var(--card-color);
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.4);
-}
-
-h2 {
-    padding: 0px 20px;
-    cursor: pointer;
+    position: relative;
 }
 
 .navbar-logo-container{
@@ -25,16 +19,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.navbar-container::before, .navbar-logo-container, .toggle-container {
-    content: '';
-    background-color: var(--card-color);
-    z-index: 10;
-}
-
-.navbar-container::before {
-    flex-basis: 10%;
+    margin-right: 10px;
 }
 
 .navbar-logo-container{
@@ -53,7 +38,11 @@ h2 {
 .navbar-icon {
     color: var(--title);
     font: 500 1.25rem 'Inter', sans-serif;
-    margin-bottom: 0.5rem;
+}
+
+.navbar-container .slick-slide {
+    text-align: center;
+    padding: 0px 10px;
 }
 
 /*
@@ -63,9 +52,11 @@ theme and sound toggle
 .settings-container {
     display: flex;
     align-items: center;
-    width: 10%;
-    background-color: var(--card-color);
     z-index: 10;
+    position: absolute;
+    right: 0px;
+    margin-right:calc(2.5% + 10px);
+    height: 100%;
 }
 
 .theme-toggle {
@@ -78,9 +69,20 @@ theme and sound toggle
     background-color: var(--theme-switch-bg);
 }
 
-@media(max-width: 980px) {
+@media(max-width: 1024px) {
     .theme-toggle {
         margin-left: 0;
+    }
+}
+
+@media(max-width: 425px) {
+    .navbar-logo-container {
+        justify-content: flex-start;
+        margin-left: calc(2.5% + 10px);
+    }
+
+    .settings-container {
+        position: relative;
     }
 }
 
