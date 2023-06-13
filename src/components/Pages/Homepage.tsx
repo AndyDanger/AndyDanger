@@ -68,9 +68,7 @@ export function Homepage() {
                         <div className="content-wrapper">
                             <p className="content-title">Analytics</p>
                             <p className="content-subtitle">My insights are catered to fit your needs and based on real-market data.</p>
-                            <p>
-                                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/uOoyhCdPSwM" title="Guess The Test: Including Savings Callout in Mini-Cart" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                            </p>
+                            <iframe className="guessTheTestVideo" src="https://www.youtube.com/embed/uOoyhCdPSwM" title="Guess The Test: Including Savings Callout in Mini-Cart" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                     </section>
                     <section className="background">

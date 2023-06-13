@@ -77,6 +77,13 @@ body {
     overflow: hidden;
 }
 
+.guessTheTestVideo {
+    max-width: 600px;
+    margin-top: 20px;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 .sunWrapper {
     width: 100%;
     height: 300vw;
@@ -384,7 +391,8 @@ body {
 
 .abTests {
     max-width: 600px;
-    margin: 0px auto;
+    margin: 20px auto;
+
 }
 
 .abTests img {
