@@ -240,6 +240,30 @@ body {
     z-index: 4;
 }
 
+@media only screen and (min-width: 1200px) {
+
+    .content-title {
+        font-size: 8vw;
+    }
+    .content-subtitle {
+        font-size: 4vw;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .sun {
+        height: 85vw;
+    }
+
+    .content-title {
+        font-size: 8vw;
+    }
+    .content-subtitle {
+        font-size: 4vw;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     .background:nth-child(2):not(.active, .down-scroll) {
         transform: translate3d(0, 85vh, 0) !important;
@@ -266,31 +290,7 @@ body {
     .background:nth-child(4):not(.active) {
         transform: translate3d(0, 82.5vh, 0) !important;
     }
-}
 
-@media only screen and (min-width: 1200px) {
-
-    .content-title {
-        font-size: 8vw;
-    }
-
-}
-
-@media only screen and (max-width: 1200px) {
-    .sun {
-        height: 85vw;
-    }
-
-    .background:first-child .content-wrapper {
-        transform: translateY(40vh) !important;
-    }
-
-    .content-title {
-        font-size: 12vw;
-    }
-}
-
-@media only screen and (max-width: 600px) {
     .sun {
         height: 95vw;
     }
@@ -298,8 +298,10 @@ body {
     .content-title {
         font-size: 16vw;
     }
+    .content-subtitle {
+        font-size: 8vw;
+    }
 }
-
 
 
 .background:nth-child(3) svg {
@@ -384,9 +386,9 @@ body {
 }
 
 .background.down-scroll+.background:not(.down-scroll) .content-wrapper {
-    -webkit-transform: translateY(15vh);
-    -ms-transform: translateY(15vh);
-    transform: translateY(15vh);
+    -webkit-transform: translateY(70px);
+    -ms-transform: translateY(70px);
+    transform: translateY(70px);
 }
 
 .abTests {
