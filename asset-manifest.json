@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba9b1acc.css",
-    "main.js": "/static/js/main.cc6d45e7.js",
+    "main.css": "/static/css/main.a6f9c61a.css",
+    "main.js": "/static/js/main.3852df2d.js",
     "static/media/hawaii.jpg": "/static/media/hawaii.02af2f0eac6d235c129c.jpg",
     "static/media/adele.jpg": "/static/media/adele.d2e5c764084711f1c11c.jpg",
     "static/media/graduation.jpg": "/static/media/graduation.8f6db166933b4c03a848.jpg",
@@ -11,18 +11,18 @@
     "static/media/bartesian_slide.jpg": "/static/media/bartesian_slide.7e1190f31e7797ca4dec.jpg",
     "static/media/slumberkins_slide.jpg": "/static/media/slumberkins_slide.ad3211ebfccdaa2dae51.jpg",
     "static/media/evangelion.jpg": "/static/media/evangelion.bd23289937efc7de9d4a.jpg",
-    "static/media/logo.svg": "/static/media/logo.e47acea34410dc6e5b999665ea67c4b9.svg",
+    "static/media/logo.svg": "/static/media/logo.1feed9183185748087427478f90a05f1.svg",
     "index.html": "/index.html",
     "static/media/layered-steps-haikei-trans.svg": "/static/media/layered-steps-haikei-trans.9624d08966d22bd6a4178ec64c78d51a.svg",
     "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/wave-haikei-trans.svg": "/static/media/wave-haikei-trans.f6aef4dba308e0208a317cf12cb8e0a1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/layered-peaks-haikei-trans.svg": "/static/media/layered-peaks-haikei-trans.b447f7b16e1c5079c33eddd0d565979e.svg",
-    "main.ba9b1acc.css.map": "/static/css/main.ba9b1acc.css.map",
-    "main.cc6d45e7.js.map": "/static/js/main.cc6d45e7.js.map"
+    "main.a6f9c61a.css.map": "/static/css/main.a6f9c61a.css.map",
+    "main.3852df2d.js.map": "/static/js/main.3852df2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9b1acc.css",
-    "static/js/main.cc6d45e7.js"
+    "static/css/main.a6f9c61a.css",
+    "static/js/main.3852df2d.js"
   ]
 }
