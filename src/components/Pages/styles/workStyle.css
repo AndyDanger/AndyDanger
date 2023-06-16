@@ -1,6 +1,3 @@
-.peaks .background:first-child {
-    background-color: var(--peak1);
-}
 .peaks .background:nth-child(2),
 .peaks .background:nth-child(2) .wrapper div {
     background-color: var(--peak2);

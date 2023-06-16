@@ -20,6 +20,8 @@ export function Homepage() {
 
     return (
         <div>
+            <div className="skyWrapper">
+            </div>
             <div className="sunWrapper">
                 <div className="sun" />
             </div>

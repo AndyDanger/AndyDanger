@@ -1,7 +1,3 @@
-.steps .background:first-child {
-    background-color: var(--step1);
-}
-
 .steps .background:nth-child(2),
 .steps .background:nth-child(2) .wrapper div {
     background-color: var(--step2);
