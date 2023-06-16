@@ -124,8 +124,8 @@ export function Homepage() {
                     <section className="background">
                         <div className="content-wrapper">
                             <p className="content-title">About</p>
+                            <p className="content-subtitle">My wife and I live in St. Louis with our two cats</p>
                             <img src={require('../Pages/assets/hawaii.jpg')} />
-                            <p className="content-subtitle"></p>
                         </div>
                     </section>
                     <section className="background">
