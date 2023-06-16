@@ -79,6 +79,10 @@ export function Homepage() {
                         <div className="content-wrapper">
                             <p className="content-title">Web Development</p>
                             <p className="content-subtitle">Everything you see here I coded myself. Swipe left to learn more</p>
+                            <div className="swipe">
+                                <div className="path"></div>
+                                <div className="hand-icon"></div>
+                            </div>
                         </div>
                     </section>
                 </div>

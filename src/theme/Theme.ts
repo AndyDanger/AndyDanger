@@ -27,5 +27,6 @@ export interface Theme {
     '--step3': string,
     '--step4': string,
     '--sun': string,
+    '--swipe-filter': string,
     'background': string,
 }
