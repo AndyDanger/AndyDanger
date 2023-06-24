@@ -218,9 +218,9 @@ body {
 }
 
 .background:first-child .content-wrapper {
-    -webkit-transform: translateY(20vh) !important;
-    -ms-transform: translateY(20vh) !important;
-    transform: translateY(20vh) !important;
+    -webkit-transform: translateY(20dvh) !important;
+    -ms-transform: translateY(20dvh) !important;
+    transform: translateY(20dvh) !important;
 }
 
 /* Set stacking context of slides */
@@ -280,15 +280,15 @@ body {
 
 @media only screen and (max-width: 600px) {
     .background:nth-child(2):not(.active, .down-scroll) {
-        transform: translate3d(0, 72.5vh, 0) !important;
+        transform: translate3d(0, 75dvh, 0) !important;
     }
 
     .background:nth-child(3):not(.active, .down-scroll) {
-        transform: translate3d(0, 77.5vh, 0) !important;
+        transform: translate3d(0, 80dvh, 0) !important;
     }
 
     .background:nth-child(4):not(.active) {
-        transform: translate3d(0, 82.5vh, 0) !important;
+        transform: translate3d(0, 85dvh, 0) !important;
     }
 
     .sun {
