@@ -92,7 +92,11 @@ export function Homepage() {
                     <section className="background">
                         <div className="content-wrapper">
                             <p className="content-title">Work</p>
-                            <p className="content-subtitle">Scroll down!</p>
+                            <p className="company-logos">
+                                <img src={require('../Pages/assets/roi_revolution.png')} />
+                                <img src={require('../Pages/assets/relias.png')} />
+                                <img src={require('../Pages/assets/elevar.png')} />
+                            </p>
                         </div>
                     </section>
                     <section className="background">

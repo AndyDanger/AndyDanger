@@ -52,3 +52,16 @@
 .peaks .background:nth-child(4):not(.active) .wrapper {
     animation: Mountains 7s ease-in-out infinite !important;
 }
+
+.company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logos img {
+    width: 33%;
+    min-width: 240px;
+    padding: 0px 10px;
+}
