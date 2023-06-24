@@ -280,15 +280,15 @@ body {
 
 @media only screen and (max-width: 600px) {
     .background:nth-child(2):not(.active, .down-scroll) {
-        transform: translate3d(0, 75dvh, 0) !important;
+        transform: translate3d(0, 77.5dvh, 0) !important;
     }
 
     .background:nth-child(3):not(.active, .down-scroll) {
-        transform: translate3d(0, 80dvh, 0) !important;
+        transform: translate3d(0, 82.5dvh, 0) !important;
     }
 
     .background:nth-child(4):not(.active) {
-        transform: translate3d(0, 85dvh, 0) !important;
+        transform: translate3d(0, 87.5dvh, 0) !important;
     }
 
     .sun {
