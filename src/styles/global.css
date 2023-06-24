@@ -296,10 +296,10 @@ body {
     }
 
     .content-title {
-        font-size: 16vw;
+        font-size: 14vw;
     }
     .content-subtitle {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 }
 
@@ -345,6 +345,7 @@ body {
     margin: 0px auto;
     object-fit: contain;
     width: 100%;
+    padding: 10px 0px;
 }
 
 .background.up-scroll {

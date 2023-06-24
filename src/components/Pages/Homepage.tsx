@@ -126,7 +126,9 @@ export function Homepage() {
                         </div>
                         <div className="content-wrapper">
                             <p className="content-title">Personal</p>
-                            <p className="content-subtitle">TODO</p>
+                            <p className="content-subtitle">Real-time stats for live, professional League of Legends games</p>
+                            <img src={require('../Pages/assets/esports.jpg')} />
+                            <a href="https://andydanger.github.io/live-lol-esports/#/">View Website</a>
                         </div>
                     </section>
                 </div>
