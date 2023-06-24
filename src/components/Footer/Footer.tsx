@@ -14,6 +14,9 @@ export function Footer() {
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/andrew-marshall-32b404110/">
                 <LinkedInSVG className="footer-img" />
             </a>
+            <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1vKXa3dDupYkscty7CXLVYtMvkZB-ljXH/edit?usp=sharing&ouid=112510460207694246278&rtpof=true&sd=true">
+                Resume
+            </a>
         </nav>
     );
 }
