@@ -1,4 +1,4 @@
-import './styles/homepageStyle.css'
+import './styles/homeStyle.css'
 
 import { ReactComponent as WaveSVG } from '../Pages/assets/wave-haikei-trans.svg';
 

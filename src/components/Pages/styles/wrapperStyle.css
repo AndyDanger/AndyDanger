@@ -1,0 +1,19 @@
+.homepageWrapper {
+    z-index: 10;
+}
+
+.skyWrapper {
+    position: absolute;
+    width: 300vw;
+    z-index: 7;
+    height: 100%;
+    background-color: var(--wave1);
+}
+
+.skyWrapper[current-page="1"] {
+    background-color: var(--peak1);
+}
+
+.skyWrapper[current-page="2"] {
+    background-color: var(--step1);
+}

@@ -1,3 +1,5 @@
+import './styles/wrapperStyle.css'
+
 import { Home } from './Home'
 import { Work } from './Work'
 import { About } from './About'
