@@ -18,7 +18,10 @@ export function About() {
                 <div className="content-wrapper">
                     <p className="content-title">About</p>
                     <p className="content-subtitle">My wife and I live in St. Louis with our two cats</p>
-                    <img src={require('../Pages/assets/hawaii.jpg')} />
+                    <p className="about-photos">
+                        <img src={require('../Pages/assets/wedding.jpg')} />
+                        <img src={require('../Pages/assets/engagement.jpg')} />
+                    </p>
                 </div>
             </section>
             <section className="background">
@@ -50,7 +53,7 @@ export function About() {
                 </div>
                 <div className="content-wrapper">
                     <p className="content-title">Inspirations</p>
-                    <p className="content-subtitle">Logo inspired by End of Evangelion. Waves, mountains, and buildings made using <a href="https://app.haikei.app/">Haikei.app</a></p>
+                    <p className="content-subtitle">Logo inspired by End of Evangelion. Layers created using <a href="https://app.haikei.app/">Haikei.app</a></p>
                     <img src={require('../Pages/assets/evangelion.jpg')} />
                 </div>
             </section>

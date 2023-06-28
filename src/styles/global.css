@@ -62,6 +62,10 @@ a {
     color: inherit;
     text-decoration: none;
 }
+ul {
+    margin-top: 5px;
+    list-style-position: inside;
+}
 
 .container {
     /* min-height: 85vh; */
@@ -131,9 +135,9 @@ body {
 }
 
 .background:first-child .content-wrapper {
-    -webkit-transform: translateY(20dvh) !important;
-    -ms-transform: translateY(20dvh) !important;
-    transform: translateY(20dvh) !important;
+    -webkit-transform: translateY(40dvh) !important;
+    -ms-transform: translateY(40dvh) !important;
+    transform: translateY(40dvh) !important;
 }
 
 /* Set stacking context of slides */
@@ -153,28 +157,16 @@ body {
     z-index: 4;
 }
 
-@media only screen and (min-width: 1200px) {
-
-    .content-title {
-        font-size: 8vw;
-    }
-    .content-subtitle {
-        font-size: 4vw;
-    }
-
+.background:nth-child(2):not(.active, .down-scroll) {
+    transform: translate3d(0, 77.5dvh, 0) !important;
 }
 
-@media only screen and (max-width: 1200px) {
-    .sun {
-        height: 85vw;
-    }
+.background:nth-child(3):not(.active, .down-scroll) {
+    transform: translate3d(0, 82.5dvh, 0) !important;
+}
 
-    .content-title {
-        font-size: 8vw;
-    }
-    .content-subtitle {
-        font-size: 4vw;
-    }
+.background:nth-child(4):not(.active) {
+    transform: translate3d(0, 87.5dvh, 0) !important;
 }
 
 @media only screen and (min-width: 600px) {
@@ -188,31 +180,6 @@ body {
 
     .background:nth-child(4):not(.active) {
         transform: translate3d(0, 95vh, 0) !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .background:nth-child(2):not(.active, .down-scroll) {
-        transform: translate3d(0, 77.5dvh, 0) !important;
-    }
-
-    .background:nth-child(3):not(.active, .down-scroll) {
-        transform: translate3d(0, 82.5dvh, 0) !important;
-    }
-
-    .background:nth-child(4):not(.active) {
-        transform: translate3d(0, 87.5dvh, 0) !important;
-    }
-
-    .sun {
-        height: 95vw;
-    }
-
-    .content-title {
-        font-size: 14vw;
-    }
-    .content-subtitle {
-        font-size: 6vw;
     }
 }
 

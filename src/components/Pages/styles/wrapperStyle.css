@@ -2,6 +2,49 @@
     z-index: 10;
 }
 
+.sun {
+    height: 95vw;
+}
+
+.content-title {
+    font-size: 14vw;
+    padding-bottom: 10px;
+}
+
+.content-subtitle {
+    font-size: 6vw;
+    line-height: 8vw;
+}
+
+.content-wrapper {
+    text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+    .sun {
+        height: 85vw;
+    }
+
+    .content-title {
+        font-size: 6vw;
+    }
+
+    .content-subtitle {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-title {
+        font-size: 6vw;
+    }
+
+    .content-subtitle {
+        font-size: 3vw;
+    }
+
+}
+
 .skyWrapper {
     position: absolute;
     width: 300vw;

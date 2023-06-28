@@ -19,6 +19,7 @@ export function Work() {
             <section className="background">
                 <div className="content-wrapper">
                     <p className="content-title">Work</p>
+                    <p className="content-subtitle">I've had the pleasure of working for the following companies:</p>
                     <p className="company-logos">
                         <img src={require('../Pages/assets/roi_revolution.png')} />
                         <img src={require('../Pages/assets/relias.png')} />

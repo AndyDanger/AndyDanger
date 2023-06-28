@@ -17,7 +17,12 @@ export function Home() {
                     <section className="background">
                         <div className="content-wrapper">
                             <p className="content-title">Hello!</p>
-                            <p className="content-subtitle">I'm Andrew "Andy Danger" Marshall, a UX designer, analytics specialist, and web developer based in St. Louis</p>
+                            <p className="content-subtitle">I'm Andrew Marshall, and I'm an expert in:</p>
+                            <ul>
+                                <li className="content-subtitle">Web Development</li>
+                                <li className="content-subtitle">UX Design</li>
+                                <li className="content-subtitle">Digital Analytics</li>
+                            </ul>
                         </div>
                     </section>
                     <section className="background">
