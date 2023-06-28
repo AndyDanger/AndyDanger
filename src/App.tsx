@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 
 import {HashRouter, Routes, Route, Navigate} from "react-router-dom";
 import {Footer} from "./components/Footer/Footer";
-import {Homepage} from "./components/Pages/Homepage";
+import {Wrapper} from "./components/Pages/Wrapper";
 
 import {Navbar} from "./components/Navbar/Navbar";
 import { useTheme } from './theme/ThemeContext'
@@ -18,7 +18,7 @@ function App() {
                 <Navbar/>
                 <div className="container">
                     <Routes>
-                        <Route path="/" element={<Homepage />}/>
+                        <Route path="/" element={<Wrapper />}/>
                     </Routes>
                 </div>
                 <Footer/>
