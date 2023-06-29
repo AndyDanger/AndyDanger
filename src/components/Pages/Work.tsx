@@ -53,8 +53,43 @@ export function Work() {
                     <div></div>
                 </div>
                 <div className="content-wrapper">
-                    <p className="content-title">Resume</p>
-                    <p className="content-subtitle">You can view my detailed work experience here:</p>
+                    <p className="content-title">Skills</p>
+                    <ul>
+                        <li>
+                            TypeScript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                        <li>
+                            node.js
+                        </li>
+                        <li>
+                            jQuery
+                        </li>
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
+                            Git
+                        </li>
+                        <li>
+                            SQL
+                        </li>
+                        <li>
+                            Google Analytics
+                        </li>
+                        <li>
+                            Google Tag Manager
+                        </li>
+                        <li>
+                            Photoshop
+                        </li>
+                    </ul>
+                    <p className="content-subtitle">For a full list of my skills and work experience, you can view my resume here:</p>
                     <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1vKXa3dDupYkscty7CXLVYtMvkZB-ljXH/edit?usp=sharing&ouid=112510460207694246278&rtpof=true&sd=true">
                         View Resume
                     </a>
