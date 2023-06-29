@@ -68,8 +68,8 @@ export function Work() {
                 <div className="content-wrapper">
                     <p className="content-title">Personal</p>
                     <p className="content-subtitle">Real-time stats for live, professional League of Legends games</p>
-                    <img src={require('../Pages/assets/esports.jpg')} />
-                    <a href="https://andydanger.github.io/live-lol-esports/#/">View Website</a>
+                    <img src={require('../Pages/assets/esports.png')} />
+                    <a target="_blank" rel="noreferrer" href="https://andydanger.github.io/live-lol-esports/#/">View Website</a>
                 </div>
             </section>
         </div>
