@@ -31,16 +31,27 @@
 
     .content-subtitle {
         font-size: 3vw;
+        line-height: 4vw;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
     .content-title {
         font-size: 6vw;
     }
 
     .content-subtitle {
         font-size: 3vw;
+    }
+
+    .content-wrapper {
+        display: flex;
+        padding: 0px 50px;
+        gap: 20px;
+    }
+
+    .content-column {
+        width: 50%;
     }
 
 }
@@ -140,4 +151,8 @@
 
 .sun.hide {
     opacity: 0;
+}
+
+.singleImage {
+    width: 100%;
 }
