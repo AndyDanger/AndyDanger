@@ -18,7 +18,7 @@ export function Home() {
                 <div className="content-wrapper">
                     <div className='content-column'>
                         <p className="content-title">Hello!</p>
-                        <p className="content-subtitle">I'm Andrew Marshall, and I'm an expert in:</p>
+                        <p className="content-subtitle">I'm Andrew "Andy Danger" Marshall, and I'm an expert in:</p>
                     </div>
                     <div className='content-column'>
                         <ul>
