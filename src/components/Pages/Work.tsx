@@ -63,7 +63,7 @@ export function Work() {
                 <div className="content-wrapper">
                     <div className='content-column'>
                         <p className="content-title">Skills</p>
-                        <ul>
+                        <ul className='skills'>
                             <li>
                                 TypeScript
                             </li>
@@ -101,7 +101,7 @@ export function Work() {
                     </div>
                     <div className='content-column'>
                         <p className="content-subtitle">For a full list of my skills and work experience, you can view my resume here:</p>
-                        <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1vKXa3dDupYkscty7CXLVYtMvkZB-ljXH/edit?usp=sharing&ouid=112510460207694246278&rtpof=true&sd=true">
+                        <a className="content-subtitle" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1vKXa3dDupYkscty7CXLVYtMvkZB-ljXH/edit?usp=sharing&ouid=112510460207694246278&rtpof=true&sd=true">
                             View Resume
                         </a>
                     </div>
@@ -119,7 +119,7 @@ export function Work() {
                     </div>
                     <div className='content-column'>
                         <img className='singleImage' src={require('../Pages/assets/esports.png')} />
-                        <a target="_blank" rel="noreferrer" href="https://andydanger.github.io/live-lol-esports/#/">View Website</a>
+                        <a className="content-subtitle" target="_blank" rel="noreferrer" href="https://andydanger.github.io/live-lol-esports/#/">View Website</a>
                     </div>
                 </div>
             </section>

@@ -439,3 +439,8 @@ body {
 [dir="rtl"] .slick-next::before {
     content: "❮";
 }
+
+.slick-slide > p {
+    margin-top: 10px;
+    font-size: 18px;
+}
