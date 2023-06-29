@@ -53,8 +53,11 @@ export function Work() {
                     <div></div>
                 </div>
                 <div className="content-wrapper">
-                    <p className="content-title">A/B Testing</p>
-                    <p className="content-subtitle">TODO</p>
+                    <p className="content-title">Resume</p>
+                    <p className="content-subtitle">You can view my detailed work experience here:</p>
+                    <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1vKXa3dDupYkscty7CXLVYtMvkZB-ljXH/edit?usp=sharing&ouid=112510460207694246278&rtpof=true&sd=true">
+                        View Resume
+                    </a>
                 </div>
             </section>
             <section className="background">
