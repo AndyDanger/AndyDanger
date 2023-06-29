@@ -1,32 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e0f0d43.css",
-    "main.js": "/static/js/main.ed33fc51.js",
-    "static/media/hawaii.jpg": "/static/media/hawaii.02af2f0eac6d235c129c.jpg",
-    "static/media/adele.jpg": "/static/media/adele.d2e5c764084711f1c11c.jpg",
+    "main.css": "/static/css/main.c93ed32d.css",
+    "main.js": "/static/js/main.dd70cd9f.js",
+    "static/media/adele.jpg": "/static/media/adele.1bfdd369546a7d54987b.jpg",
+    "static/media/engagement.jpg": "/static/media/engagement.46ca7a9582e97f48aec2.jpg",
+    "static/media/wedding.jpg": "/static/media/wedding.a31141a3defa6f474d3c.jpg",
+    "static/media/bartesian_ab.png": "/static/media/bartesian_ab.d4d8b57b93e8363865b6.png",
+    "static/media/super_coffee_ab.png": "/static/media/super_coffee_ab.8122df43f51009100889.png",
     "static/media/esports.jpg": "/static/media/esports.0e603f0a155f1ad2e941.jpg",
+    "static/media/puma.png": "/static/media/puma.5c710fb25b448aeca580.png",
+    "static/media/alphapaw_ab.png": "/static/media/alphapaw_ab.c9354cdd53d80886fce9.png",
     "static/media/graduation.jpg": "/static/media/graduation.8f6db166933b4c03a848.jpg",
     "static/media/roi_revolution.png": "/static/media/roi_revolution.c9e11db7b6cecea03221.png",
     "static/media/relias.png": "/static/media/relias.403b172adcc980726190.png",
-    "static/media/alphapaw_slide.jpg": "/static/media/alphapaw_slide.566f591f0f4375c47f0b.jpg",
-    "static/media/sandcloud_slide.jpg": "/static/media/sandcloud_slide.7912642acf8b696e188d.jpg",
-    "static/media/mtnops_slide.jpg": "/static/media/mtnops_slide.fa94a382b2a8360ea2bf.jpg",
-    "static/media/bartesian_slide.jpg": "/static/media/bartesian_slide.7e1190f31e7797ca4dec.jpg",
-    "static/media/slumberkins_slide.jpg": "/static/media/slumberkins_slide.ad3211ebfccdaa2dae51.jpg",
+    "static/media/sand_cloud.png": "/static/media/sand_cloud.b1ac16e584ec262e24e7.png",
+    "static/media/casetify.png": "/static/media/casetify.32347aa49c13ec14a415.png",
+    "static/media/bartesian.png": "/static/media/bartesian.c5c79c9215c8afab3729.png",
     "static/media/elevar.png": "/static/media/elevar.d58f0bf90d1871c078cc.png",
+    "static/media/hunter_fan.png": "/static/media/hunter_fan.440bbc822cb55e62140f.png",
     "static/media/logo.svg": "/static/media/logo.68e9c08aafa0b4e02033c054e1cbf901.svg",
     "static/media/evangelion.jpg": "/static/media/evangelion.bd23289937efc7de9d4a.jpg",
+    "static/media/raycon.png": "/static/media/raycon.70346a5fddb71546e2df.png",
+    "static/media/super_coffee.png": "/static/media/super_coffee.d45e8fea08a7b4cb98ef.png",
     "index.html": "/index.html",
     "static/media/layered-steps-haikei-trans.svg": "/static/media/layered-steps-haikei-trans.9624d08966d22bd6a4178ec64c78d51a.svg",
     "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/wave-haikei-trans.svg": "/static/media/wave-haikei-trans.f6aef4dba308e0208a317cf12cb8e0a1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/layered-peaks-haikei-trans.svg": "/static/media/layered-peaks-haikei-trans.b447f7b16e1c5079c33eddd0d565979e.svg",
-    "main.4e0f0d43.css.map": "/static/css/main.4e0f0d43.css.map",
-    "main.ed33fc51.js.map": "/static/js/main.ed33fc51.js.map"
+    "main.c93ed32d.css.map": "/static/css/main.c93ed32d.css.map",
+    "main.dd70cd9f.js.map": "/static/js/main.dd70cd9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e0f0d43.css",
-    "static/js/main.ed33fc51.js"
+    "static/css/main.c93ed32d.css",
+    "static/js/main.dd70cd9f.js"
   ]
 }
