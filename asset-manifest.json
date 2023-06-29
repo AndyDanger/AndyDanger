@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c93ed32d.css",
-    "main.js": "/static/js/main.6bddb486.js",
+    "main.css": "/static/css/main.7e9ae7db.css",
+    "main.js": "/static/js/main.666d4ddf.js",
     "static/media/adele.jpg": "/static/media/adele.1bfdd369546a7d54987b.jpg",
     "static/media/engagement.jpg": "/static/media/engagement.46ca7a9582e97f48aec2.jpg",
     "static/media/wedding.jpg": "/static/media/wedding.a31141a3defa6f474d3c.jpg",
     "static/media/bartesian_ab.png": "/static/media/bartesian_ab.d4d8b57b93e8363865b6.png",
     "static/media/super_coffee_ab.png": "/static/media/super_coffee_ab.8122df43f51009100889.png",
-    "static/media/esports.jpg": "/static/media/esports.0e603f0a155f1ad2e941.jpg",
     "static/media/puma.png": "/static/media/puma.5c710fb25b448aeca580.png",
     "static/media/alphapaw_ab.png": "/static/media/alphapaw_ab.c9354cdd53d80886fce9.png",
+    "static/media/esports.png": "/static/media/esports.9b629cae2464410bb379.png",
     "static/media/graduation.jpg": "/static/media/graduation.8f6db166933b4c03a848.jpg",
     "static/media/roi_revolution.png": "/static/media/roi_revolution.c9e11db7b6cecea03221.png",
     "static/media/relias.png": "/static/media/relias.403b172adcc980726190.png",
@@ -28,11 +28,11 @@
     "static/media/wave-haikei-trans.svg": "/static/media/wave-haikei-trans.f6aef4dba308e0208a317cf12cb8e0a1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/layered-peaks-haikei-trans.svg": "/static/media/layered-peaks-haikei-trans.b447f7b16e1c5079c33eddd0d565979e.svg",
-    "main.c93ed32d.css.map": "/static/css/main.c93ed32d.css.map",
-    "main.6bddb486.js.map": "/static/js/main.6bddb486.js.map"
+    "main.7e9ae7db.css.map": "/static/css/main.7e9ae7db.css.map",
+    "main.666d4ddf.js.map": "/static/js/main.666d4ddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.c93ed32d.css",
-    "static/js/main.6bddb486.js"
+    "static/css/main.7e9ae7db.css",
+    "static/js/main.666d4ddf.js"
   ]
 }
