@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c93ed32d.css",
-    "main.js": "/static/js/main.dd70cd9f.js",
+    "main.js": "/static/js/main.6bddb486.js",
     "static/media/adele.jpg": "/static/media/adele.1bfdd369546a7d54987b.jpg",
     "static/media/engagement.jpg": "/static/media/engagement.46ca7a9582e97f48aec2.jpg",
     "static/media/wedding.jpg": "/static/media/wedding.a31141a3defa6f474d3c.jpg",
@@ -29,10 +29,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/layered-peaks-haikei-trans.svg": "/static/media/layered-peaks-haikei-trans.b447f7b16e1c5079c33eddd0d565979e.svg",
     "main.c93ed32d.css.map": "/static/css/main.c93ed32d.css.map",
-    "main.dd70cd9f.js.map": "/static/js/main.dd70cd9f.js.map"
+    "main.6bddb486.js.map": "/static/js/main.6bddb486.js.map"
   },
   "entrypoints": [
     "static/css/main.c93ed32d.css",
-    "static/js/main.dd70cd9f.js"
+    "static/js/main.6bddb486.js"
   ]
 }
