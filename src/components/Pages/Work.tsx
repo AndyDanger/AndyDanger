@@ -34,7 +34,17 @@ export function Work() {
                 </div>
                 <div className="content-wrapper">
                     <p className="content-title">Clients</p>
-                    <p className="content-subtitle">TODO</p>
+                    <p className="content-subtitle">These are a handful of the websites I've provided insights and A/B testing for:</p>
+                    <p className="company-logos">
+                        <img src={require('../Pages/assets/puma.png')} />
+                        <img src={require('../Pages/assets/netflix.png')} />
+                        <img src={require('../Pages/assets/raycon.png')} />
+                        <img src={require('../Pages/assets/sand_cloud.png')} />
+                        <img src={require('../Pages/assets/hunter_fan.png')} />
+                        <img src={require('../Pages/assets/super_coffee.png')} />
+                        <img src={require('../Pages/assets/casetify.png')} />
+                        <img src={require('../Pages/assets/bartesian.png')} />
+                    </p>
                 </div>
             </section>
             <section className="background">

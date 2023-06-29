@@ -36,19 +36,19 @@ export function Home() {
                             <div>
                                 <div className="abTests">
                                     <div>
-                                        <img src={require('../Pages/assets/alphapaw_slide.jpg')} />
+                                        <img src={require('../Pages/assets/bartesian_ab.png')} />
+                                        <p>Inserting a GIF on the Homepage increased CVR by 42%</p>
+                                        <a href="https://docs.google.com/presentation/d/1fNIP5s5yuyrmtw88uL7DVYgjWjF8ELvDAngt9WIaSEQ/edit#slide=id.g2141c11aea4_0_132">View Case Study</a>
                                     </div>
                                     <div>
-                                        <img src={require('../Pages/assets/bartesian_slide.jpg')} />
+                                        <img src={require('../Pages/assets/super_coffee_ab.png')} />
+                                        <p>Making the product cards shorter and reducing the padding around them increased CVR by 49%</p>
+                                        <a href="https://docs.google.com/presentation/d/1fNIP5s5yuyrmtw88uL7DVYgjWjF8ELvDAngt9WIaSEQ/edit#slide=id.g11a9287d2c2_0_0">View Case Study</a>
                                     </div>
                                     <div>
-                                        <img src={require('../Pages/assets/mtnops_slide.jpg')} />
-                                    </div>
-                                    <div>
-                                        <img src={require('../Pages/assets/sandcloud_slide.jpg')} />
-                                    </div>
-                                    <div>
-                                        <img src={require('../Pages/assets/slumberkins_slide.jpg')} />
+                                        <img src={require('../Pages/assets/alphapaw_ab.png')} />
+                                        <p>Inserting the price before savings in the mini-cart increased CVR by 9.8%</p>
+                                        <a href="https://docs.google.com/presentation/d/1fNIP5s5yuyrmtw88uL7DVYgjWjF8ELvDAngt9WIaSEQ/edit#slide=id.g127d68e279e_0_0">View Case Study</a>
                                     </div>
                                 </div>
                             </div>
