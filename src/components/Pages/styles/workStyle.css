@@ -64,4 +64,5 @@
 .company-logos img {
     width: 50%;
     padding: 5px;
+    max-width: 300px;
 }

@@ -182,6 +182,21 @@ body {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .background:first-child .content-wrapper {
+        -webkit-transform: translateY(35dvh) !important;
+        -ms-transform: translateY(35dvh) !important;
+        transform: translateY(35dvh) !important;
+    }
+
+    .background.down-scroll+.background:not(.down-scroll) .content-wrapper {
+        -webkit-transform: translateY(20px) !important;
+        -ms-transform: translateY(20px) !important;
+        transform: translateY(20px) !important;
+    }
+}
+
+
 
 .background:nth-child(3) svg {
     transform: scaleX(1.5);
